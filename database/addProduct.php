@@ -1,0 +1,2 @@
+<?php
+$productName = $_POST[''];
