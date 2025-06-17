@@ -14,14 +14,14 @@ $products = [
         'name' => 'Bolu Gulung Cokelat',
         'description' => 'Manisnya cokelat premium dalam gulungan bolu yang empuk.',
         'price' => 50000,
-        'image' => 'assets/images/bolugulung/bolucokelat.jpeg'
+        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 3,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => 'assets/images/bolugulung/bolupandan.jpeg'
+        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
     ]
 ];
 
