@@ -7,42 +7,42 @@ $products = [
         'name' => 'Bolu Gulung Keju',
         'description' => 'Lembutnya bolu dengan isian keju premium melimpah.',
         'price' => 50000,
-        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 2,
         'name' => 'Bolu Gulung Cokelat',
         'description' => 'Manisnya cokelat premium dalam gulungan bolu yang empuk.',
         'price' => 50000,
-        'image' => 'assets/images/bolugulung/bolucokelat.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 3,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 4,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 5,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 6,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ]
 ];
 

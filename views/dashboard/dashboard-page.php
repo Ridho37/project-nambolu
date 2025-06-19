@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['user_id'])){
+    header("Location: dashboard-page.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
 <head>

@@ -1,5 +1,4 @@
 <?php
-
 // dummy
 $products = [
     [
@@ -7,28 +6,28 @@ $products = [
         'name' => 'Bolu Gulung Keju',
         'description' => 'Lembutnya bolu dengan isian keju premium melimpah.',
         'price' => 50000,
-        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 2,
         'name' => 'Bolu Gulung Cokelat',
         'description' => 'Manisnya cokelat premium dalam gulungan bolu yang empuk.',
         'price' => 50000,
-        'image' => 'assets/images/bolugulung/bolucokelat.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 3,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => 'assets/images/bolugulung/bolupandan.jpeg'
+        'image' => '../public/assets/images/bolugulung/bolukeju.jpeg'
     ]
 ];
 
 ?>
 
 <!-- Header bg-[url('assets/images/hero1.png')]-->
-<section class="relative bg-[url('assets/images/hero1.png')] bg-cover bg-center min-h-screen flex items-center justify-center">
+<section class="relative bg-[url('../public/assets/images/hero1.png')] bg-cover bg-center min-h-screen flex items-center justify-center">
     <div class="absolute inset-0 bg-black/50 z-10"></div>
         <div class="relative container mx-auto z-20">
             <div class="text-center align-text-top">
@@ -95,7 +94,7 @@ $products = [
         </div>
         
         <div class="text-center mt-16">
-            <a href="products-all.php" class="bg-rose-800 text-white font-bold font-poppins py-3 px-8 rounded-lg shadow-md hover:bg-rose-600 transition-all duration-300">Lihat Semua Menu</a>
+            <a href="products.php" class="bg-rose-800 text-white font-bold font-poppins py-3 px-8 rounded-lg shadow-md hover:bg-rose-600 transition-all duration-300">Lihat Semua Menu</a>
         </div>
     </div>
 </section>
