@@ -1,17 +1,12 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{html,js}",
+    // Pastikan path ini benar dan mencakup semua file .php Anda
+    "./views/**/*.php", 
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-        'lato': ['Lato', 'sans-serif'],
-      },
-    }
+    extend: {},
   },
   plugins: [
     require('flowbite/plugin')
