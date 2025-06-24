@@ -1,8 +1,16 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "","nambolu");
-if(!$conn){
-    echo "koneksi database gagal";
-}
+
+// config/database.php
+// File ini hanya mengembalikan sebuah array berisi konfigurasi database.
+// Ini adalah praktik yang baik untuk memisahkan konfigurasi dari logika.
+
+return [
+    'host'      => 'localhost',
+    'dbname'    => 'nambolu',
+    'user'      => 'root',
+    'password'  => '',
+    'charset'   => 'utf8mb4'
+];
 
 /*
 Table [biar konsisten]

@@ -1,0 +1,11 @@
+# Aktifkan Mesin Rewrite
+RewriteEngine On
+
+# Pastikan request tidak mengarah ke file yang sudah ada
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Pastikan request tidak mengarah ke direktori yang sudah ada
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Alihkan semua request lainnya ke index.php di direktori saat ini
+RewriteRule . index.php [L]
