@@ -90,7 +90,7 @@ $products = [
         </div>
         
         <div class="text-center mt-16">
-            <a href="products.php" class="bg-rose-800 text-white font-bold font-poppins py-3 px-8 rounded-lg shadow-md hover:bg-rose-600 transition-all duration-300">Lihat Semua Menu</a>
+            <a href="/products" class="bg-rose-800 text-white font-bold font-poppins py-3 px-8 rounded-lg shadow-md hover:bg-rose-600 transition-all duration-300">Lihat Semua Menu</a>
         </div>
     </div>
 </section>

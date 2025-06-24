@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="shortcut icon" href="../assets/images/logo.png" type="image/png">
-    <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="bg-white font-lato text-gray-800">
 
