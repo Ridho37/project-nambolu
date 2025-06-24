@@ -4,24 +4,24 @@ $products = [
     [
         'id' => 1,
         'name' => 'Bolu Gulung Keju',
-        'url' => 'bolu-keju.php', // <-- TAMBAHKAN BARIS INI
+        'url' => '/products/detail', // <-- TAMBAHKAN BARIS INI
         'description' => 'Lembutnya bolu dengan isian keju premium yang melimpah',
         'price' => 50000,
-        'image' => '../assets/images/bolugulung/bolukeju.jpeg'
+        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 2,
         'name' => 'Bolu Gulung Cokelat',
         'description' => 'Manisnya cokelat premium dalam gulungan bolu yang empuk.',
         'price' => 50000,
-        'image' => '../assets/images/bolugulung/bolucokelat.jpeg'
+        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
     ],
     [
         'id' => 3,
         'name' => 'Bolu Gulung Pandan',
         'description' => 'Aroma wangi pandan asli dengan isian krim yang lembut.',
         'price' => 45000,
-        'image' => '../assets/images/bolugulung/bolupandan.jpeg'
+        'image' => 'assets/images/bolugulung/bolukeju.jpeg'
     ]
 ];
 ?>
@@ -47,7 +47,7 @@ $products = [
     <div class="container mx-auto px-5">
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div>
-                <img src="../assets/images/about.jpg" class="rounded-lg shadow-lg w-full" alt="Dapur Nambolu">
+                <img src="assets/images/about.jpg" class="rounded-lg shadow-lg w-full" alt="Dapur Nambolu">
             </div>
             <div class="leading-relaxed">
                 <h2 class="text-4xl font-poppins font-bold text-slate-800 mb-6">About Nambolu</h2>
@@ -79,7 +79,7 @@ $products = [
                     <div class="mt-auto pt-4">
                         <p class="text-lg text-rose-600 font-bold font-poppins mb-3">Rp<?= number_format($product['price'], 0, ',', '.') ?></p>
                         
-                        <a href="landing-page/<?= strtolower(str_replace(' ', '-', $product['name'])) ?>.php" class="block text-center w-full bg-slate-800 text-white font-poppins py-2.5 px-4 rounded-lg hover:bg-slate-700 transition-colors duration-300">
+                        <a href="/product?id=<?= $product['id'] ?>" class="block text-center w-full bg-slate-800 text-white font-poppins py-2.5 px-4 rounded-lg hover:bg-slate-700 transition-colors duration-300">                            
                             Lihat Detail
                         </a>
 

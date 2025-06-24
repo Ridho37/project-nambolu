@@ -17,18 +17,22 @@ if ($base_path != '/' && strpos($request_uri, $base_path) === 0) {
 }
 
 // Jika setelah dipotong hasilnya kosong (artinya kita di halaman root), jadikan '/'
-if (empty($request)) {
+if (strlen($request)) {
     $request = '/';
 }
 
-$request = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+// $request = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 switch ($request){
     case '/':
         require "views/home.php";
         break;
     case '/products':
-        require "views/products.php";
+        // require "views/products.php";
+        echo "tahu walek";
+        break;
+    case '/products/detail':
+        require "views/landing-page/bolu-gulung-keju.php";
         break;
     case '/admin/login':
         require "views/dashboard/dashboard-login.php";
@@ -56,6 +60,6 @@ switch ($request){
         break;
     default:
         http_response_code(404);
-        echo "url nya salah tuh kak!";
+        echo "url nya salah tuh kak! path yang diterima: ". htmlspecialchars($request);
         break;
 }

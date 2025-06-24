@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="../../assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 <body class="bg-white font-lato text-gray-800">
 
@@ -19,7 +19,7 @@
     <div class="container flex justify-between items-center px-5 py-4 mx-auto">
         
         <a href="#" class="flex items-center">
-            <img src="../assets/images/logo.png" class="w-10" alt="Nambolu Logo">
+            <img src="assets/images/logo.png" class="w-10" alt="Nambolu Logo">
             <h1 class="text-3xl pl-3 my-auto font-poppins font-bold text-slate-800">Nambolu</h1>
         </a>
         

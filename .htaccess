@@ -2,9 +2,13 @@ RewriteEngine On
 RewriteBase /project-nambolu/
 
 # Jika request BUKAN file yang ada secara fisik
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 # DAN jika request BUKAN direktori yang ada secara fisik
+
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Maka alihkan semua request ke index.php
+
 RewriteRule . index.php [L]
